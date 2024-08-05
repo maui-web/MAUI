@@ -14,5 +14,6 @@ We build a dataset to train the object detection model that extracts sections, i
 
 We split the collected dataset into training and validation sets with a ratio of 8:2. Using the dataset, we validated the performance of multiple state-of-the-art object detection networks and selected the EfficientDet series with EfficientNet backbones considering the accuracy-latency trade-off. We fine-tuned the EfficientDet-D0 and D3 with some modifications of the training configurations (e.g., anchor box settings). For privacy-preserving in-browser deployment, we converted the trained detection network to TensorFlow.js.
 
+Released TensorFlow.js model checkpoints
 - [EfficientDet-D0](https://www.dropbox.com/scl/fo/5blfa4hzzhwhab2g88bgk/AFjD1E1Wd541MGc5qYNtm4c?rlkey=cdsvn14aer8cp8iwb18huullb&st=fxrx86k5&dl=0)
 - [EfficientDet-D3](https://www.dropbox.com/scl/fo/qtxy4gy99g0oragjl0feb/AAaz8rocntnCGRyvjTszCNQ?rlkey=x8dc23s108m8kj13yuelrpcp6&st=6vksnkjz&dl=0)
