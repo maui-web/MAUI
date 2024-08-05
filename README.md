@@ -2,7 +2,7 @@
 
 ## Web GUI Dataset
 
-[Download_Here](https://www.dropbox.com/scl/fo/ylfebju8uezff85rn7z0s/AMgd0Vqc4iVUX1Ags_yXaqg?rlkey=8illl94nv7d08mj4rjq8yi78k&st=dwz1ezhs&dl=0)
+[Download_Here](https://www.dropbox.com/scl/fo/zcbd1rhxor5o792od3m33/AL_cKcqJ3mt_oQb6_eIy_k0?rlkey=k8f7hd1omnw1o0mu70wx7ebym&st=ot7i9jhg&dl=0)
 
 We build a dataset to train the object detection model that extracts sections, important regions in a web page, from page screenshot. High-quality annotations of the bounding boxes covering the whole area of ground-truth sections effectively increase the accuracy of the trained network. To this end, we implemented a tool for labeling the exact bounding boxes of sections by selecting associated DOM elements directly on a page. As a Chrome extension program, the tool supports an intuitive selection mechanism for DOM elements by hovering and clicking via the mouse to label their bounding boxes on a page screenshot. As most pages have overlapping elements on a single point, the tool provides a method for hovering the hierarchical path of the current element (e.g., click-and-wheelup). When the user selects an element, the tool displays a pop-up to decide its GUI type. The tool automatically stores a screenshot and an annotation file after the user has finished the labeling process on a page. 
 
